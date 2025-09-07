@@ -1,3 +1,5 @@
+//Movchanskaya Daria, 6 group 
+
 import java.util.Scanner;
 
 public class ArcTan {
