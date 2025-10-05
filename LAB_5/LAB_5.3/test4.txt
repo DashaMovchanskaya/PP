@@ -1,0 +1,4 @@
+Minsk Gomel 200
+Gomel Brest 150
+Brest Vitebsk 300
+Vitebsk Minsk 400

@@ -1,0 +1,4 @@
+Orsha Vitebsk 90
+Minsk Borisov 50
+Slutsk Orsha 70
+Borisov Slutsk 30
