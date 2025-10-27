@@ -26,7 +26,7 @@ public class TreesTest {
             new AppleTree("", 5, 80, 60);
             fail("Ожидалось IllegalArgumentException для пустого имени");
         } catch (IllegalArgumentException e) {
-            // Проверяем сообщение исключения
+            
             assertTrue(e.getMessage().contains("Имя дерева не может быть пустым") ||
                     e.getMessage().contains("имя"));
         }
@@ -60,8 +60,7 @@ public class TreesTest {
         TransplantStrategy strategy = new YoungTreeStrategy();
         appleTree.setTransplantationStrategy(strategy);
 
-        // Проверяем, что стратегия установлена (косвенно через поведение)
-        appleTree.checkTransplantation(); // Не должно бросать исключение
+        appleTree.checkTransplantation(); 
     }
 
     @Test

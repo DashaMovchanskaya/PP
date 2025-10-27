@@ -1,9 +1,5 @@
 package org.example;
 
-/**
- * Hello world!
- *
- */
 public class App 
 {
     public static void main( String[] args )
@@ -36,11 +32,9 @@ public class App
 
         garden.saveTreesToFile("saved_trees.txt");
 
-        // Добавление нового дерева вручную
         System.out.println("\n=== ДОБАВЛЕНИЕ НОВОГО ДЕРЕВА ===");
         garden.addTree("Новая яблоня", "Яблоня", 1, 95, 20);
 
-        // Финальная проверка
         System.out.println("\n=== ФИНАЛЬНАЯ ПРОВЕРКА ===");
         garden.checkAllTrees();
         garden.getStatistics();
