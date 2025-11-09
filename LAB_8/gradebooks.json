@@ -1,0 +1,1166 @@
+[ {
+  "lastname" : "Иванов",
+  "name" : "Иван",
+  "patronymic" : "Иванович",
+  "year" : 1,
+  "group" : 5,
+  "excellent" : true,
+  "lastSession" : {
+    "number" : 1,
+    "excellent" : true,
+    "subject" : [ {
+      "subject" : "Математика",
+      "exam" : true,
+      "mark" : 9,
+      "excellent" : true
+    }, {
+      "subject" : "Физика",
+      "exam" : true,
+      "mark" : 10,
+      "excellent" : true
+    }, {
+      "subject" : "Программирование",
+      "exam" : true,
+      "mark" : 9,
+      "excellent" : true
+    }, {
+      "subject" : "История",
+      "exam" : false,
+      "mark" : 1,
+      "excellent" : true
+    }, {
+      "subject" : "Физкультура",
+      "exam" : false,
+      "mark" : 1,
+      "excellent" : true
+    } ]
+  },
+  "session" : [ {
+    "number" : 1,
+    "excellent" : true,
+    "subject" : [ {
+      "subject" : "Математика",
+      "exam" : true,
+      "mark" : 9,
+      "excellent" : true
+    }, {
+      "subject" : "Физика",
+      "exam" : true,
+      "mark" : 10,
+      "excellent" : true
+    }, {
+      "subject" : "Программирование",
+      "exam" : true,
+      "mark" : 9,
+      "excellent" : true
+    }, {
+      "subject" : "История",
+      "exam" : false,
+      "mark" : 1,
+      "excellent" : true
+    }, {
+      "subject" : "Физкультура",
+      "exam" : false,
+      "mark" : 1,
+      "excellent" : true
+    } ]
+  } ]
+}, {
+  "lastname" : "Петров",
+  "name" : "Петр",
+  "patronymic" : "Петрович",
+  "year" : 2,
+  "group" : 6,
+  "excellent" : false,
+  "lastSession" : {
+    "number" : 3,
+    "excellent" : false,
+    "subject" : [ {
+      "subject" : "Дискретная математика",
+      "exam" : true,
+      "mark" : 9,
+      "excellent" : true
+    }, {
+      "subject" : "Алгоритмы",
+      "exam" : true,
+      "mark" : 8,
+      "excellent" : false
+    }, {
+      "subject" : "Сети",
+      "exam" : true,
+      "mark" : 7,
+      "excellent" : false
+    }, {
+      "subject" : "Экономика",
+      "exam" : false,
+      "mark" : 1,
+      "excellent" : true
+    }, {
+      "subject" : "Право",
+      "exam" : false,
+      "mark" : 1,
+      "excellent" : true
+    } ]
+  },
+  "session" : [ {
+    "number" : 1,
+    "excellent" : false,
+    "subject" : [ {
+      "subject" : "Математика",
+      "exam" : true,
+      "mark" : 8,
+      "excellent" : false
+    }, {
+      "subject" : "Физика",
+      "exam" : true,
+      "mark" : 9,
+      "excellent" : true
+    }, {
+      "subject" : "Программирование",
+      "exam" : true,
+      "mark" : 7,
+      "excellent" : false
+    }, {
+      "subject" : "История",
+      "exam" : false,
+      "mark" : 1,
+      "excellent" : true
+    }, {
+      "subject" : "Физкультура",
+      "exam" : false,
+      "mark" : 1,
+      "excellent" : true
+    } ]
+  }, {
+    "number" : 2,
+    "excellent" : false,
+    "subject" : [ {
+      "subject" : "Высшая математика",
+      "exam" : true,
+      "mark" : 7,
+      "excellent" : false
+    }, {
+      "subject" : "Информатика",
+      "exam" : true,
+      "mark" : 8,
+      "excellent" : false
+    }, {
+      "subject" : "Базы данных",
+      "exam" : true,
+      "mark" : 6,
+      "excellent" : false
+    }, {
+      "subject" : "Иностранный язык",
+      "exam" : false,
+      "mark" : 1,
+      "excellent" : true
+    }, {
+      "subject" : "Философия",
+      "exam" : false,
+      "mark" : 1,
+      "excellent" : true
+    } ]
+  }, {
+    "number" : 3,
+    "excellent" : false,
+    "subject" : [ {
+      "subject" : "Дискретная математика",
+      "exam" : true,
+      "mark" : 9,
+      "excellent" : true
+    }, {
+      "subject" : "Алгоритмы",
+      "exam" : true,
+      "mark" : 8,
+      "excellent" : false
+    }, {
+      "subject" : "Сети",
+      "exam" : true,
+      "mark" : 7,
+      "excellent" : false
+    }, {
+      "subject" : "Экономика",
+      "exam" : false,
+      "mark" : 1,
+      "excellent" : true
+    }, {
+      "subject" : "Право",
+      "exam" : false,
+      "mark" : 1,
+      "excellent" : true
+    } ]
+  } ]
+}, {
+  "lastname" : "Сидорова",
+  "name" : "Анна",
+  "patronymic" : "Михайловна",
+  "year" : 2,
+  "group" : 7,
+  "excellent" : true,
+  "lastSession" : {
+    "number" : 3,
+    "excellent" : true,
+    "subject" : [ {
+      "subject" : "Дискретная математика",
+      "exam" : true,
+      "mark" : 10,
+      "excellent" : true
+    }, {
+      "subject" : "Алгоритмы",
+      "exam" : true,
+      "mark" : 10,
+      "excellent" : true
+    }, {
+      "subject" : "Сети",
+      "exam" : true,
+      "mark" : 9,
+      "excellent" : true
+    }, {
+      "subject" : "Экономика",
+      "exam" : false,
+      "mark" : 1,
+      "excellent" : true
+    }, {
+      "subject" : "Право",
+      "exam" : false,
+      "mark" : 1,
+      "excellent" : true
+    } ]
+  },
+  "session" : [ {
+    "number" : 1,
+    "excellent" : true,
+    "subject" : [ {
+      "subject" : "Математика",
+      "exam" : true,
+      "mark" : 10,
+      "excellent" : true
+    }, {
+      "subject" : "Физика",
+      "exam" : true,
+      "mark" : 10,
+      "excellent" : true
+    }, {
+      "subject" : "Программирование",
+      "exam" : true,
+      "mark" : 9,
+      "excellent" : true
+    }, {
+      "subject" : "История",
+      "exam" : false,
+      "mark" : 1,
+      "excellent" : true
+    }, {
+      "subject" : "Физкультура",
+      "exam" : false,
+      "mark" : 1,
+      "excellent" : true
+    } ]
+  }, {
+    "number" : 2,
+    "excellent" : true,
+    "subject" : [ {
+      "subject" : "Высшая математика",
+      "exam" : true,
+      "mark" : 10,
+      "excellent" : true
+    }, {
+      "subject" : "Информатика",
+      "exam" : true,
+      "mark" : 10,
+      "excellent" : true
+    }, {
+      "subject" : "Базы данных",
+      "exam" : true,
+      "mark" : 9,
+      "excellent" : true
+    }, {
+      "subject" : "Иностранный язык",
+      "exam" : false,
+      "mark" : 1,
+      "excellent" : true
+    }, {
+      "subject" : "Философия",
+      "exam" : false,
+      "mark" : 1,
+      "excellent" : true
+    } ]
+  }, {
+    "number" : 3,
+    "excellent" : true,
+    "subject" : [ {
+      "subject" : "Дискретная математика",
+      "exam" : true,
+      "mark" : 10,
+      "excellent" : true
+    }, {
+      "subject" : "Алгоритмы",
+      "exam" : true,
+      "mark" : 10,
+      "excellent" : true
+    }, {
+      "subject" : "Сети",
+      "exam" : true,
+      "mark" : 9,
+      "excellent" : true
+    }, {
+      "subject" : "Экономика",
+      "exam" : false,
+      "mark" : 1,
+      "excellent" : true
+    }, {
+      "subject" : "Право",
+      "exam" : false,
+      "mark" : 1,
+      "excellent" : true
+    } ]
+  } ]
+}, {
+  "lastname" : "Козлова",
+  "name" : "Елена",
+  "patronymic" : "Сергеевна",
+  "year" : 3,
+  "group" : 12,
+  "excellent" : true,
+  "lastSession" : {
+    "number" : 5,
+    "excellent" : true,
+    "subject" : [ {
+      "subject" : "Проектирование систем",
+      "exam" : true,
+      "mark" : 9,
+      "excellent" : true
+    }, {
+      "subject" : "Тестирование ПО",
+      "exam" : true,
+      "mark" : 10,
+      "excellent" : true
+    }, {
+      "subject" : "Управление проектами",
+      "exam" : true,
+      "mark" : 9,
+      "excellent" : true
+    }, {
+      "subject" : "Иностранный язык",
+      "exam" : false,
+      "mark" : 1,
+      "excellent" : true
+    }, {
+      "subject" : "Этика",
+      "exam" : false,
+      "mark" : 1,
+      "excellent" : true
+    } ]
+  },
+  "session" : [ {
+    "number" : 1,
+    "excellent" : true,
+    "subject" : [ {
+      "subject" : "Архитектура ЭВМ",
+      "exam" : true,
+      "mark" : 9,
+      "excellent" : true
+    }, {
+      "subject" : "Операционные системы",
+      "exam" : true,
+      "mark" : 10,
+      "excellent" : true
+    }, {
+      "subject" : "Базы данных",
+      "exam" : true,
+      "mark" : 9,
+      "excellent" : true
+    }, {
+      "subject" : "Математика",
+      "exam" : false,
+      "mark" : 1,
+      "excellent" : true
+    }, {
+      "subject" : "Физика",
+      "exam" : false,
+      "mark" : 1,
+      "excellent" : true
+    } ]
+  }, {
+    "number" : 2,
+    "excellent" : true,
+    "subject" : [ {
+      "subject" : "Сети и телекоммуникации",
+      "exam" : true,
+      "mark" : 10,
+      "excellent" : true
+    }, {
+      "subject" : "Веб-разработка",
+      "exam" : true,
+      "mark" : 9,
+      "excellent" : true
+    }, {
+      "subject" : "Мобильные приложения",
+      "exam" : true,
+      "mark" : 10,
+      "excellent" : true
+    }, {
+      "subject" : "История",
+      "exam" : false,
+      "mark" : 1,
+      "excellent" : true
+    }, {
+      "subject" : "Физкультура",
+      "exam" : false,
+      "mark" : 1,
+      "excellent" : true
+    } ]
+  }, {
+    "number" : 3,
+    "excellent" : true,
+    "subject" : [ {
+      "subject" : "Искусственный интеллект",
+      "exam" : true,
+      "mark" : 9,
+      "excellent" : true
+    }, {
+      "subject" : "Машинное обучение",
+      "exam" : true,
+      "mark" : 10,
+      "excellent" : true
+    }, {
+      "subject" : "Анализ данных",
+      "exam" : true,
+      "mark" : 9,
+      "excellent" : true
+    }, {
+      "subject" : "Философия",
+      "exam" : false,
+      "mark" : 1,
+      "excellent" : true
+    }, {
+      "subject" : "Психология",
+      "exam" : false,
+      "mark" : 1,
+      "excellent" : true
+    } ]
+  }, {
+    "number" : 4,
+    "excellent" : true,
+    "subject" : [ {
+      "subject" : "Кибербезопасность",
+      "exam" : true,
+      "mark" : 10,
+      "excellent" : true
+    }, {
+      "subject" : "Большие данные",
+      "exam" : true,
+      "mark" : 9,
+      "excellent" : true
+    }, {
+      "subject" : "Облачные технологии",
+      "exam" : true,
+      "mark" : 10,
+      "excellent" : true
+    }, {
+      "subject" : "Экономика",
+      "exam" : false,
+      "mark" : 1,
+      "excellent" : true
+    }, {
+      "subject" : "Менеджмент",
+      "exam" : false,
+      "mark" : 1,
+      "excellent" : true
+    } ]
+  }, {
+    "number" : 5,
+    "excellent" : true,
+    "subject" : [ {
+      "subject" : "Проектирование систем",
+      "exam" : true,
+      "mark" : 9,
+      "excellent" : true
+    }, {
+      "subject" : "Тестирование ПО",
+      "exam" : true,
+      "mark" : 10,
+      "excellent" : true
+    }, {
+      "subject" : "Управление проектами",
+      "exam" : true,
+      "mark" : 9,
+      "excellent" : true
+    }, {
+      "subject" : "Иностранный язык",
+      "exam" : false,
+      "mark" : 1,
+      "excellent" : true
+    }, {
+      "subject" : "Этика",
+      "exam" : false,
+      "mark" : 1,
+      "excellent" : true
+    } ]
+  } ]
+}, {
+  "lastname" : "Николаев",
+  "name" : "Дмитрий",
+  "patronymic" : "Александрович",
+  "year" : 3,
+  "group" : 13,
+  "excellent" : false,
+  "lastSession" : {
+    "number" : 5,
+    "excellent" : false,
+    "subject" : [ {
+      "subject" : "Проектирование систем",
+      "exam" : true,
+      "mark" : 8,
+      "excellent" : false
+    }, {
+      "subject" : "Тестирование ПО",
+      "exam" : true,
+      "mark" : 7,
+      "excellent" : false
+    }, {
+      "subject" : "Управление проектами",
+      "exam" : true,
+      "mark" : 6,
+      "excellent" : false
+    }, {
+      "subject" : "Иностранный язык",
+      "exam" : false,
+      "mark" : 1,
+      "excellent" : true
+    }, {
+      "subject" : "Этика",
+      "exam" : false,
+      "mark" : 1,
+      "excellent" : true
+    } ]
+  },
+  "session" : [ {
+    "number" : 1,
+    "excellent" : false,
+    "subject" : [ {
+      "subject" : "Архитектура ЭВМ",
+      "exam" : true,
+      "mark" : 8,
+      "excellent" : false
+    }, {
+      "subject" : "Операционные системы",
+      "exam" : true,
+      "mark" : 7,
+      "excellent" : false
+    }, {
+      "subject" : "Базы данных",
+      "exam" : true,
+      "mark" : 6,
+      "excellent" : false
+    }, {
+      "subject" : "Математика",
+      "exam" : false,
+      "mark" : 1,
+      "excellent" : true
+    }, {
+      "subject" : "Физика",
+      "exam" : false,
+      "mark" : 1,
+      "excellent" : true
+    } ]
+  }, {
+    "number" : 2,
+    "excellent" : false,
+    "subject" : [ {
+      "subject" : "Сети и телекоммуникации",
+      "exam" : true,
+      "mark" : 7,
+      "excellent" : false
+    }, {
+      "subject" : "Веб-разработка",
+      "exam" : true,
+      "mark" : 8,
+      "excellent" : false
+    }, {
+      "subject" : "Мобильные приложения",
+      "exam" : true,
+      "mark" : 6,
+      "excellent" : false
+    }, {
+      "subject" : "История",
+      "exam" : false,
+      "mark" : 1,
+      "excellent" : true
+    }, {
+      "subject" : "Физкультура",
+      "exam" : false,
+      "mark" : 1,
+      "excellent" : true
+    } ]
+  }, {
+    "number" : 3,
+    "excellent" : false,
+    "subject" : [ {
+      "subject" : "Искусственный интеллект",
+      "exam" : true,
+      "mark" : 8,
+      "excellent" : false
+    }, {
+      "subject" : "Машинное обучение",
+      "exam" : true,
+      "mark" : 7,
+      "excellent" : false
+    }, {
+      "subject" : "Анализ данных",
+      "exam" : true,
+      "mark" : 6,
+      "excellent" : false
+    }, {
+      "subject" : "Философия",
+      "exam" : false,
+      "mark" : 1,
+      "excellent" : true
+    }, {
+      "subject" : "Психология",
+      "exam" : false,
+      "mark" : 1,
+      "excellent" : true
+    } ]
+  }, {
+    "number" : 4,
+    "excellent" : false,
+    "subject" : [ {
+      "subject" : "Кибербезопасность",
+      "exam" : true,
+      "mark" : 7,
+      "excellent" : false
+    }, {
+      "subject" : "Большие данные",
+      "exam" : true,
+      "mark" : 8,
+      "excellent" : false
+    }, {
+      "subject" : "Облачные технологии",
+      "exam" : true,
+      "mark" : 6,
+      "excellent" : false
+    }, {
+      "subject" : "Экономика",
+      "exam" : false,
+      "mark" : 1,
+      "excellent" : true
+    }, {
+      "subject" : "Менеджмент",
+      "exam" : false,
+      "mark" : 1,
+      "excellent" : true
+    } ]
+  }, {
+    "number" : 5,
+    "excellent" : false,
+    "subject" : [ {
+      "subject" : "Проектирование систем",
+      "exam" : true,
+      "mark" : 8,
+      "excellent" : false
+    }, {
+      "subject" : "Тестирование ПО",
+      "exam" : true,
+      "mark" : 7,
+      "excellent" : false
+    }, {
+      "subject" : "Управление проектами",
+      "exam" : true,
+      "mark" : 6,
+      "excellent" : false
+    }, {
+      "subject" : "Иностранный язык",
+      "exam" : false,
+      "mark" : 1,
+      "excellent" : true
+    }, {
+      "subject" : "Этика",
+      "exam" : false,
+      "mark" : 1,
+      "excellent" : true
+    } ]
+  } ]
+}, {
+  "lastname" : "Васнецова",
+  "name" : "Ольга",
+  "patronymic" : "Викторовна",
+  "year" : 4,
+  "group" : 15,
+  "excellent" : true,
+  "lastSession" : {
+    "number" : 7,
+    "excellent" : true,
+    "subject" : [ {
+      "subject" : "Защита ВКР",
+      "exam" : true,
+      "mark" : 10,
+      "excellent" : true
+    }, {
+      "subject" : "Государственный экзамен",
+      "exam" : true,
+      "mark" : 10,
+      "excellent" : true
+    }, {
+      "subject" : "Профессиональный экзамен",
+      "exam" : true,
+      "mark" : 10,
+      "excellent" : true
+    }, {
+      "subject" : "Физическая подготовка",
+      "exam" : false,
+      "mark" : 1,
+      "excellent" : true
+    }, {
+      "subject" : "Военная подготовка",
+      "exam" : false,
+      "mark" : 1,
+      "excellent" : true
+    } ]
+  },
+  "session" : [ {
+    "number" : 1,
+    "excellent" : true,
+    "subject" : [ {
+      "subject" : "Специальные разделы математики",
+      "exam" : true,
+      "mark" : 10,
+      "excellent" : true
+    }, {
+      "subject" : "Теория вероятностей",
+      "exam" : true,
+      "mark" : 10,
+      "excellent" : true
+    }, {
+      "subject" : "Статистика",
+      "exam" : true,
+      "mark" : 10,
+      "excellent" : true
+    }, {
+      "subject" : "История",
+      "exam" : false,
+      "mark" : 1,
+      "excellent" : true
+    }, {
+      "subject" : "Физкультура",
+      "exam" : false,
+      "mark" : 1,
+      "excellent" : true
+    } ]
+  }, {
+    "number" : 2,
+    "excellent" : true,
+    "subject" : [ {
+      "subject" : "Углубленное программирование",
+      "exam" : true,
+      "mark" : 10,
+      "excellent" : true
+    }, {
+      "subject" : "Архитектура ПО",
+      "exam" : true,
+      "mark" : 10,
+      "excellent" : true
+    }, {
+      "subject" : "Системный анализ",
+      "exam" : true,
+      "mark" : 10,
+      "excellent" : true
+    }, {
+      "subject" : "Философия",
+      "exam" : false,
+      "mark" : 1,
+      "excellent" : true
+    }, {
+      "subject" : "Психология",
+      "exam" : false,
+      "mark" : 1,
+      "excellent" : true
+    } ]
+  }, {
+    "number" : 3,
+    "excellent" : true,
+    "subject" : [ {
+      "subject" : "Распределенные системы",
+      "exam" : true,
+      "mark" : 10,
+      "excellent" : true
+    }, {
+      "subject" : "Параллельные вычисления",
+      "exam" : true,
+      "mark" : 10,
+      "excellent" : true
+    }, {
+      "subject" : "Безопасность систем",
+      "exam" : true,
+      "mark" : 10,
+      "excellent" : true
+    }, {
+      "subject" : "Экономика",
+      "exam" : false,
+      "mark" : 1,
+      "excellent" : true
+    }, {
+      "subject" : "Менеджмент",
+      "exam" : false,
+      "mark" : 1,
+      "excellent" : true
+    } ]
+  }, {
+    "number" : 4,
+    "excellent" : true,
+    "subject" : [ {
+      "subject" : "Научные исследования",
+      "exam" : true,
+      "mark" : 10,
+      "excellent" : true
+    }, {
+      "subject" : "Методология науки",
+      "exam" : true,
+      "mark" : 10,
+      "excellent" : true
+    }, {
+      "subject" : "Академическое письмо",
+      "exam" : true,
+      "mark" : 10,
+      "excellent" : true
+    }, {
+      "subject" : "Предпринимательство",
+      "exam" : false,
+      "mark" : 1,
+      "excellent" : true
+    }, {
+      "subject" : "Инновации",
+      "exam" : false,
+      "mark" : 1,
+      "excellent" : true
+    } ]
+  }, {
+    "number" : 5,
+    "excellent" : true,
+    "subject" : [ {
+      "subject" : "Проектный практикум",
+      "exam" : true,
+      "mark" : 10,
+      "excellent" : true
+    }, {
+      "subject" : "Научный семинар",
+      "exam" : true,
+      "mark" : 10,
+      "excellent" : true
+    }, {
+      "subject" : "Техническое творчество",
+      "exam" : true,
+      "mark" : 10,
+      "excellent" : true
+    }, {
+      "subject" : "Этика",
+      "exam" : false,
+      "mark" : 1,
+      "excellent" : true
+    }, {
+      "subject" : "Право",
+      "exam" : false,
+      "mark" : 1,
+      "excellent" : true
+    } ]
+  }, {
+    "number" : 6,
+    "excellent" : true,
+    "subject" : [ {
+      "subject" : "Подготовка ВКР",
+      "exam" : true,
+      "mark" : 10,
+      "excellent" : true
+    }, {
+      "subject" : "Научная статья",
+      "exam" : true,
+      "mark" : 10,
+      "excellent" : true
+    }, {
+      "subject" : "Проектная документация",
+      "exam" : true,
+      "mark" : 10,
+      "excellent" : true
+    }, {
+      "subject" : "Педагогика",
+      "exam" : false,
+      "mark" : 1,
+      "excellent" : true
+    }, {
+      "subject" : "Культурология",
+      "exam" : false,
+      "mark" : 1,
+      "excellent" : true
+    } ]
+  }, {
+    "number" : 7,
+    "excellent" : true,
+    "subject" : [ {
+      "subject" : "Защита ВКР",
+      "exam" : true,
+      "mark" : 10,
+      "excellent" : true
+    }, {
+      "subject" : "Государственный экзамен",
+      "exam" : true,
+      "mark" : 10,
+      "excellent" : true
+    }, {
+      "subject" : "Профессиональный экзамен",
+      "exam" : true,
+      "mark" : 10,
+      "excellent" : true
+    }, {
+      "subject" : "Физическая подготовка",
+      "exam" : false,
+      "mark" : 1,
+      "excellent" : true
+    }, {
+      "subject" : "Военная подготовка",
+      "exam" : false,
+      "mark" : 1,
+      "excellent" : true
+    } ]
+  } ]
+}, {
+  "lastname" : "Григорьев",
+  "name" : "Артем",
+  "patronymic" : "Игоревич",
+  "year" : 4,
+  "group" : 16,
+  "excellent" : false,
+  "lastSession" : {
+    "number" : 7,
+    "excellent" : false,
+    "subject" : [ {
+      "subject" : "Защита ВКР",
+      "exam" : true,
+      "mark" : 6,
+      "excellent" : false
+    }, {
+      "subject" : "Государственный экзамен",
+      "exam" : true,
+      "mark" : 7,
+      "excellent" : false
+    }, {
+      "subject" : "Профессиональный экзамен",
+      "exam" : true,
+      "mark" : 5,
+      "excellent" : false
+    }, {
+      "subject" : "Физическая подготовка",
+      "exam" : false,
+      "mark" : 1,
+      "excellent" : true
+    }, {
+      "subject" : "Военная подготовка",
+      "exam" : false,
+      "mark" : 1,
+      "excellent" : true
+    } ]
+  },
+  "session" : [ {
+    "number" : 1,
+    "excellent" : false,
+    "subject" : [ {
+      "subject" : "Специальные разделы математики",
+      "exam" : true,
+      "mark" : 6,
+      "excellent" : false
+    }, {
+      "subject" : "Теория вероятностей",
+      "exam" : true,
+      "mark" : 7,
+      "excellent" : false
+    }, {
+      "subject" : "Статистика",
+      "exam" : true,
+      "mark" : 5,
+      "excellent" : false
+    }, {
+      "subject" : "История",
+      "exam" : false,
+      "mark" : 0,
+      "excellent" : false
+    }, {
+      "subject" : "Физкультура",
+      "exam" : false,
+      "mark" : 1,
+      "excellent" : true
+    } ]
+  }, {
+    "number" : 2,
+    "excellent" : false,
+    "subject" : [ {
+      "subject" : "Углубленное программирование",
+      "exam" : true,
+      "mark" : 7,
+      "excellent" : false
+    }, {
+      "subject" : "Архитектура ПО",
+      "exam" : true,
+      "mark" : 6,
+      "excellent" : false
+    }, {
+      "subject" : "Системный анализ",
+      "exam" : true,
+      "mark" : 8,
+      "excellent" : false
+    }, {
+      "subject" : "Философия",
+      "exam" : false,
+      "mark" : 1,
+      "excellent" : true
+    }, {
+      "subject" : "Психология",
+      "exam" : false,
+      "mark" : 1,
+      "excellent" : true
+    } ]
+  }, {
+    "number" : 3,
+    "excellent" : false,
+    "subject" : [ {
+      "subject" : "Распределенные системы",
+      "exam" : true,
+      "mark" : 6,
+      "excellent" : false
+    }, {
+      "subject" : "Параллельные вычисления",
+      "exam" : true,
+      "mark" : 7,
+      "excellent" : false
+    }, {
+      "subject" : "Безопасность систем",
+      "exam" : true,
+      "mark" : 5,
+      "excellent" : false
+    }, {
+      "subject" : "Экономика",
+      "exam" : false,
+      "mark" : 1,
+      "excellent" : true
+    }, {
+      "subject" : "Менеджмент",
+      "exam" : false,
+      "mark" : 1,
+      "excellent" : true
+    } ]
+  }, {
+    "number" : 4,
+    "excellent" : false,
+    "subject" : [ {
+      "subject" : "Научные исследования",
+      "exam" : true,
+      "mark" : 7,
+      "excellent" : false
+    }, {
+      "subject" : "Методология науки",
+      "exam" : true,
+      "mark" : 6,
+      "excellent" : false
+    }, {
+      "subject" : "Академическое письмо",
+      "exam" : true,
+      "mark" : 8,
+      "excellent" : false
+    }, {
+      "subject" : "Предпринимательство",
+      "exam" : false,
+      "mark" : 1,
+      "excellent" : true
+    }, {
+      "subject" : "Инновации",
+      "exam" : false,
+      "mark" : 1,
+      "excellent" : true
+    } ]
+  }, {
+    "number" : 5,
+    "excellent" : false,
+    "subject" : [ {
+      "subject" : "Проектный практикум",
+      "exam" : true,
+      "mark" : 6,
+      "excellent" : false
+    }, {
+      "subject" : "Научный семинар",
+      "exam" : true,
+      "mark" : 7,
+      "excellent" : false
+    }, {
+      "subject" : "Техническое творчество",
+      "exam" : true,
+      "mark" : 5,
+      "excellent" : false
+    }, {
+      "subject" : "Этика",
+      "exam" : false,
+      "mark" : 1,
+      "excellent" : true
+    }, {
+      "subject" : "Право",
+      "exam" : false,
+      "mark" : 1,
+      "excellent" : true
+    } ]
+  }, {
+    "number" : 6,
+    "excellent" : false,
+    "subject" : [ {
+      "subject" : "Подготовка ВКР",
+      "exam" : true,
+      "mark" : 7,
+      "excellent" : false
+    }, {
+      "subject" : "Научная статья",
+      "exam" : true,
+      "mark" : 6,
+      "excellent" : false
+    }, {
+      "subject" : "Проектная документация",
+      "exam" : true,
+      "mark" : 8,
+      "excellent" : false
+    }, {
+      "subject" : "Педагогика",
+      "exam" : false,
+      "mark" : 1,
+      "excellent" : true
+    }, {
+      "subject" : "Культурология",
+      "exam" : false,
+      "mark" : 1,
+      "excellent" : true
+    } ]
+  }, {
+    "number" : 7,
+    "excellent" : false,
+    "subject" : [ {
+      "subject" : "Защита ВКР",
+      "exam" : true,
+      "mark" : 6,
+      "excellent" : false
+    }, {
+      "subject" : "Государственный экзамен",
+      "exam" : true,
+      "mark" : 7,
+      "excellent" : false
+    }, {
+      "subject" : "Профессиональный экзамен",
+      "exam" : true,
+      "mark" : 5,
+      "excellent" : false
+    }, {
+      "subject" : "Физическая подготовка",
+      "exam" : false,
+      "mark" : 1,
+      "excellent" : true
+    }, {
+      "subject" : "Военная подготовка",
+      "exam" : false,
+      "mark" : 1,
+      "excellent" : true
+    } ]
+  } ]
+} ]

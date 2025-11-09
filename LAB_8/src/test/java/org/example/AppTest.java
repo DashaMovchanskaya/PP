@@ -77,7 +77,7 @@ public class AppTest
         gradebook.addSession(1);
         Gradebook.Session session = gradebook.getLastSession();
 
-        session.addSubject("Math", true, 8); // Не отличная оценка
+        session.addSubject("Math", true, 8);
         session.addSubject("Physics", true, 10);
 
         assertFalse(session.isExcellent());
@@ -89,7 +89,7 @@ public class AppTest
         gradebook.addSession(1);
         Gradebook.Session session = gradebook.getLastSession();
 
-        session.addSubject("History", false, 1); // Сданный зачет
+        session.addSubject("History", false, 1);
 
         assertTrue(session.isExcellent());
     }

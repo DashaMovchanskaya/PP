@@ -1,13 +1,20 @@
 package org.example;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 import java.util.ArrayList;
 import java.util.List;
 
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class Gradebook {
     private String lastname,name, patronymic;
     private int year;
     private int group;
     List<Session> sessions;
+
+    public Gradebook() {
+        this.sessions = new ArrayList<>();
+    }
 
     public Gradebook(String l, String n, String p, int y, int gr) {
         this.lastname = l;
@@ -18,14 +25,18 @@ public class Gradebook {
         this.sessions = new ArrayList<>();
     }
 
-    public class Session {
+    @JsonIgnoreProperties(ignoreUnknown = true)
+    public static class Session {
         private int number;
         private List<Subject> subjects;
 
-        public class Subject {
+        @JsonIgnoreProperties(ignoreUnknown = true)
+        public static class Subject {
             private String subject;
             private boolean exam;
             private int mark;
+
+            public Subject() {}
 
             public Subject(String s, boolean e, int m) {
                 this.subject = s;
@@ -43,6 +54,10 @@ public class Gradebook {
             public String getSubject() { return subject; }
             public boolean isExam() { return exam; }
             public int getMark() { return mark; }
+        }
+
+        public Session() {
+            this.subjects = new ArrayList<>();
         }
 
         public Session(int n) {

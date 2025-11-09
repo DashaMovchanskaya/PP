@@ -3,6 +3,7 @@ package org.example;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
+import com.fasterxml.jackson.databind.ObjectMapper;
 
 public class App 
 {
@@ -11,6 +12,9 @@ public class App
     {
         readFromFile("input.txt");
         writeExcellentStudentsToFile("output.txt");
+        writeToJson("gradebooks.json");
+        readFromJson("gradebooks.json");
+        printGradebooks();
 
         System.out.println("\nВсе зачетные книжки обработаны. Результаты записаны в файл output.txt");
     }
@@ -40,7 +44,6 @@ public class App
                     gradebooks.add(gradebook);
 
                 } else if (line.startsWith("Сессия")) {
-                    // Формат: Session 1
                     int sessionNumber = Integer.parseInt(line.split(" ")[1]);
                     gradebook.addSession(sessionNumber);
                     session = gradebook.getLastSession();
@@ -102,4 +105,45 @@ public class App
             System.out.println("Ошибка записи в файл: " + e.getMessage());
         }
     }
+
+    public static void writeToJson(String filename) {
+        ObjectMapper mapper = new ObjectMapper();
+        try {
+            mapper.writerWithDefaultPrettyPrinter().writeValue(new File(filename), gradebooks);
+            System.out.println("JSON записан в " + filename);
+        } catch (IOException e) {
+            System.out.println("Ошибка записи JSON: " + e.getMessage());
+        }
+    }
+
+    public static void readFromJson(String filename) {
+        ObjectMapper mapper = new ObjectMapper();
+        try {
+            Gradebook[] books = mapper.readValue(new File(filename), Gradebook[].class);
+            gradebooks = new ArrayList<>(List.of(books));
+            System.out.println("JSON прочитан из " + filename);
+        } catch (IOException e) {
+            System.out.println("Ошибка чтения JSON: " + e.getMessage());
+        }
+    }
+
+    public static void printGradebooks() {
+        for (Gradebook g : gradebooks) {
+            System.out.println("Студент: " + g.getLastname() + " " + g.getName() + " " + g.getPatronymic());
+            System.out.println("Курс: " + g.getYear() + ", Группа: " + g.getGroup());
+
+            for (Gradebook.Session session : g.getSession()) {
+                System.out.println("  Сессия " + session.getNumber() + ":");
+                for (Gradebook.Session.Subject subject : session.getSubject()) {
+                    System.out.print("    " + subject.getSubject());
+                    if (subject.isExam()) {
+                        System.out.print(" (экзамен)");
+                    }
+                    System.out.println(" — " + subject.getMark());
+                }
+            }
+            System.out.println();
+        }
+    }
+
 }
