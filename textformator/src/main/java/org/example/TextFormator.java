@@ -5,26 +5,43 @@ import java.util.List;
 
 public class TextFormator {
     private final int width;
+    private final int indent;
 
-    public TextFormator(int width) {
+    public TextFormator(int width, int indent) {
+        if (width <= 0) throw new IllegalArgumentException("Ширина должна быть > 0");
+        if (indent < 0) throw new IllegalArgumentException("Отступ не может быть отрицательным");
+        if (indent >= width) throw new IllegalArgumentException("Отступ должен быть меньше ширины строки");
         this.width = width;
+        this.indent = indent;
     }
 
     public List<String> formatText(List<String> lines) {
         List<String> result = new ArrayList<>();
         StringBuilder buffer = new StringBuilder();
+        boolean firstLine = true;
 
         for (String line : lines) {
+            int currentWidth = firstLine ? width - indent : width;
+            if (line.trim().isEmpty()) {
+                if (buffer.length() > 0) {
+                    result.add(applyIndent(buffer.toString().trim(), firstLine));
+                    buffer.setLength(0);
+                }
+                result.add("");
+                firstLine = true;
+                continue;
+            }
             String[] words = line.trim().split("\\s+");
             for (String word : words) {
-                if (buffer.length() + word.length() + (buffer.length() > 0 ? 1 : 0) > width) {
+                if (buffer.length() + word.length() + (buffer.length() > 0 ? 1 : 0) > currentWidth ) {
                     String currentLine = buffer.toString().trim();
                     if (!currentLine.isEmpty()) {
                         if (currentLine.contains(" ")) {
-                            result.add(justify(currentLine));
+                            result.add(justify(currentLine, firstLine, currentWidth));
                         } else {
-                            result.add(currentLine);
+                            result.add(applyIndent(currentLine, firstLine));
                         }
+                        firstLine = false;
                     }
                     buffer.setLength(0);
                 }
@@ -36,21 +53,21 @@ public class TextFormator {
         }
 
         if (buffer.length() > 0) {
-            result.add(buffer.toString().trim());
+            result.add(applyIndent(buffer.toString().trim(), firstLine));
         }
 
         return result;
     }
 
-    private String justify(String line) {
-        if (line.length() >= width) return line;
+    private String justify(String line, boolean firstLine, int currentWidth) {
+        if (line.length() >= currentWidth) return applyIndent(line, firstLine);
 
         String[] words = line.split(" ");
         if (words.length == 1) {
-            return line;
+            return applyIndent(line, firstLine);
         }
 
-        int totalSpaces = width - line.replace(" ", "").length();
+        int totalSpaces = currentWidth - line.replace(" ", "").length();
         int gaps = words.length - 1;
         int spacePerGap = totalSpaces / gaps;
         int extraSpaces = totalSpaces % gaps;
@@ -63,7 +80,17 @@ public class TextFormator {
                 justified.append(" ".repeat(spacesToAdd));
             }
         }
-        return justified.toString();
+
+        return applyIndent(justified.toString(), firstLine);
     }
+
+
+    private String applyIndent(String line, boolean firstLine) {
+        if (firstLine) {
+            return " ".repeat(indent) + line;
+        }
+        return line;
+    }
+
 }
 

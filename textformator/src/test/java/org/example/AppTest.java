@@ -16,7 +16,7 @@ class AppTest {
         Files.write(input.toPath(), List.of("Java is cool", "JUnit are the best test tool"));
 
         FileManager fm = new FileManager();
-        TextFormator tf = new TextFormator(12);
+        TextFormator tf = new TextFormator(14, 2);
 
         List<String> lines = fm.readFromFile(input.getAbsolutePath());
         List<String> formatted = tf.formatText(lines);

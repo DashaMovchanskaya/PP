@@ -12,8 +12,11 @@ public class App
         System.out.print("Введите ширину строки: ");
         int width = Integer.parseInt(sc.nextLine());
 
+        System.out.print("Введите размер красной строки (количество пробелов): ");
+        int indent = Integer.parseInt(sc.nextLine());
+
         FileManager manager = new FileManager();
-        TextFormator formatter = new TextFormator(width);
+        TextFormator formatter = new TextFormator(width, indent);
         System.out.print("Введите название входного файла: ");
         String inFile = sc.nextLine();
         System.out.print("Введите название выходного файла: ");
